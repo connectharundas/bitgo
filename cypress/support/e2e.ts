@@ -1,0 +1,1 @@
+import '../support/cy-command-mapping';

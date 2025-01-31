@@ -1,0 +1,26 @@
+{
+  "name": "bitgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connectharundas/bitgo.git"
+  },
+  "keywords": [],
+  "author": "harundask <harundask@carestack.com> (https://nexus.infra.aws.carestack.com/repository/npm/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connectharundas/bitgo/issues"
+  },
+  "homepage": "https://github.com/connectharundas/bitgo#readme",
+  "devDependencies": {
+    "@types/cypress": "^1.1.6",
+    "@types/jest": "^29.5.14",
+    "cypress": "^14.0.1",
+    "typescript": "^5.7.3"
+  }
+}
