@@ -9,4 +9,14 @@ describe('A user in Blockstream Explorer', () => {
   it('should be able to validate the transaction count', () => {
     cy.get(locator.TRANSACTION_COUNT).should('have.text', '25 of 2875 Transactions');
   })
+
+  it('should be able to transactions which has exactly 1 input and 2 outputs', () => {
+    cy.get('#transaction-box .vouts').filter((index, element) => {
+      return Cypress.$(element).children().length === 2;
+    }).each((element) => {
+      cy.wrap(element).find('.vout-header').invoke('text').then((text) => {
+        console.log(text)
+      })
+    })
+  })
 })
